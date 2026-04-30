@@ -1,0 +1,230 @@
+/*általános*/
+@media screen{
+
+    body {
+        font-family: Arial, Verdana, sans-serif;
+        background-image: url(../kep/orahatter.jpg);
+        background-size: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+    
+    header, main, footer{
+        background-color: rgb(49, 49, 49);
+        padding: 10px;
+        margin: 0 auto 0 auto;
+        width: 80%;
+        min-width: 400px;
+        max-width: 1200px;
+        border-style: solid;
+        border-color: white;
+    }
+    
+    header{
+        border-width: 3px 3px 3px 3px;
+        background-color: #ffae00;
+    }
+    
+    main{
+        border-width: 0px 3px 0px 3px;
+    }
+    
+    footer{
+        border-width: 0px 3px 3px 3px;
+        background-color: #f5f5f5;
+    }
+    footer p{text-align: center;}
+    
+    section{
+        background-color: rgb(245, 245, 245);
+        padding: 0px 10px 10px 10px;
+        margin: 20px;
+        border: 3px white solid;
+        overflow: hidden;
+    }
+    article{
+        overflow: hidden;
+    }
+    
+    q{
+        text-align: justify;
+        display: block;
+    }
+    p{ text-align: justify;}
+    main h1,h2, h3 {
+        text-align: center;
+        text-transform: uppercase;
+        background-color: white;
+        padding: 5px;
+        border-bottom: 3px solid #ffae00;
+    }
+    h2{font-size: 1.5em;}
+    h2{font-size: 1.5em;}
+    h3{font-size: 1.2em;}
+    main a:link, footer a:link{color: #00203f}
+    main a:visited, footer a:visited{color: #004c98}
+    header a{color: black; text-decoration: none !important;}
+    header h1 {
+        display: inline-block;
+        font-size: 3em;
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: 3px 3px 3px #9A0000;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    /*navigációs bar*/
+    nav#tartalomra a{position: absolute; left:-9999px;}
+    nav#tartalomra a:focus{position: static; background-color: white;}
+    
+    header nav#betumeret{
+        float: right;
+        width: auto;
+        font-size: 1.5em;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bolder;
+        background-color: whitesmoke;
+        border: 3px solid white;
+    }
+    a#kisbetu{display: none}
+    
+    header nav#menusor ul{
+        border: 3px solid white;
+        padding: 5px 30px 5px 30px;
+        margin: 12px -12px -12px -12px;
+    }
+    header nav#menusor ul li{
+        display: inline-block;
+        margin: 5px 0px 5px 0px;
+    }
+    header nav#menusor a{
+        border: 3px solid white;
+        background-color: whitesmoke;
+        padding: 3px 5px 3px 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 1.5em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .itt{
+        border: 3px solid rgb(49, 49, 49) !important;
+    }
+    header nav#menusor a:hover, nav#betumeret:hover{box-shadow: 5px 5px rgb(49, 49, 49)}
+    
+    /*képek, videó*/
+    
+    video{width: 100%;}
+    header img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    main figure{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        background: #ffae00;
+        border: 3px solid white;
+        text-align: center;
+        font-style: italic;
+    }
+    main figure figcaption{text-align: center;}
+    main figure img{border: 3px solid white; margin: auto;}
+    
+    section#velemenyek figure img{width: 95%;}
+    section#velemenyek figure{width: 55%}
+    section#rolunk figure img{width: 95%}
+    section#rolunk figure{width: 80%; max-width: 30em}
+    section#kinalat figure img{width: 95%}
+    section#kinalat figure{width: 80%; max-width: 30em}
+    
+    /*aside*/
+    section#csomagok aside{
+        width: auto;
+        font-style: italic;
+        border: 3px solid white;
+        background-color: #ffae00;
+        padding: 10px;
+        margin: 10px;
+    }
+    section#csomagok aside#alapveto{float: left;}
+    section#csomagok aside#szuprem{float: right;}
+    
+    /*table*/
+    table{margin: 0 auto; text-align: left;}
+    table td{text-align: center;}
+
+    /*form*/
+    textarea, input#nev {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    /*képernyő*/
+    section#velemenyek div{
+        column-count: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-gap: 10px;
+    }
+
+    .oszlopos{
+        column-count: 3;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+    }
+    .oszlopos section{height: 40em; margin: 0 0 0 0;}
+}
+
+@media screen and (max-width:1133px){
+    .oszlopos{
+        column-count: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+    }
+    .oszlopos section{height: auto; margin: 0 0 0 0;}
+}
+@media screen and (max-width:640px){
+    .oszlopos{
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+    }
+    .oszlopos section{height: auto; margin: 20px;}
+}
+
+@media screen and (max-width:755px){
+    section#velemenyek div{
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+    }
+
+    header nav#menusor ul{
+        margin: 12px -12px -12px -12px;
+    }
+    header nav#menusor ul li{
+        margin: 0px 0px 0px 0px;
+        display: grid;
+    }
+
+    header nav#betumeret{
+        float: none;
+        width: 100%;
+    }
+    
+    header nav#menusor a{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+}
+@media screen and (max-width: 1260px){
+    section#csomagok aside{
+        float: none;
+        width: 75%;
+    }
+}

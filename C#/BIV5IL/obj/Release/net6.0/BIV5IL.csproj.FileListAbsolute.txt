@@ -1,0 +1,14 @@
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\bin\Release\net6.0\BIV5IL.exe
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\bin\Release\net6.0\BIV5IL.deps.json
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\bin\Release\net6.0\BIV5IL.runtimeconfig.json
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\bin\Release\net6.0\BIV5IL.dll
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\bin\Release\net6.0\BIV5IL.pdb
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\obj\Release\net6.0\BIV5IL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\obj\Release\net6.0\BIV5IL.AssemblyInfoInputs.cache
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\obj\Release\net6.0\BIV5IL.AssemblyInfo.cs
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\obj\Release\net6.0\BIV5IL.csproj.CoreCompileInputs.cache
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\obj\Release\net6.0\BIV5IL.dll
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\obj\Release\net6.0\refint\BIV5IL.dll
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\obj\Release\net6.0\BIV5IL.pdb
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\obj\Release\net6.0\BIV5IL.genruntimeconfig.cache
+C:\Users\Bence\OneDrive - Eotvos Lorand Tudomanyegyetem\__EGYETEM__\prog\beadando\3\kód\BIV5IL\obj\Release\net6.0\ref\BIV5IL.dll

@@ -1,0 +1,82 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: cadetblue;
+    font-size: 1em;
+}
+
+header{
+    border-radius: 0px 0px 10px 10px;
+    background-color: darkslategrey;
+    padding: 10px;
+    margin: -10px 10px 10px 10px;
+}
+
+div{
+    padding: 10px;
+    background-color: lavender;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 10px;
+    width: 150px;
+}
+.long{ width: 255px; }
+.admin{ background-color: goldenrod; }
+
+button:hover {
+    box-shadow: 10px 5px 5px 0 rgba(0,0,0,0.19);
+}
+
+.showcase_holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.showcase{
+    margin: 10px;
+    max-width: min-content;
+    background-color: darkslategray;
+    text-align: center;
+    width: auto;
+    color: white;
+    padding: 6px;
+}
+
+.error{
+    border: 2px orangered solid;
+    margin: 10px;
+    background-color: gold;
+    color: rgb(219, 58, 0);
+    text-align: center;
+    width: auto;
+    font-weight: bold;
+}
+
+.error ul{ list-style-type: none;}
+
+.input{ display: inline}
+
+.small_img{ width: 300px; border-radius: 10px; }
+.big_img{ width: 550px; border-radius: 10px; max-width: 89vw;}
+
+@media only screen and (max-width:1720px){
+    .showcase_holder{ grid-template-columns: 1fr 1fr 1fr 1fr; }
+}
+
+@media only screen and (max-width:1400px){
+    .showcase_holder{  grid-template-columns: 1fr 1fr 1fr; }
+    .input{ display: block}
+}
+
+@media only screen and (max-width:1050px){
+    .showcase_holder{ grid-template-columns: 1fr 1fr; }
+}
+
+@media only screen and (max-width:800px){
+    .showcase_holder{ grid-template-columns: 1fr; }
+}

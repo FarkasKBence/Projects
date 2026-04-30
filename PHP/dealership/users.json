@@ -1,0 +1,30 @@
+{
+    "1": {
+        "id": "1",
+        "name": "admin",
+        "email": "admin@ikarrental.hu",
+        "password": "admin",
+        "admin": true
+    },
+    "2": {
+        "id": "2",
+        "name": "user",
+        "email": "user@freemail.com",
+        "password": "user",
+        "admin": false
+    },
+    "677fc48c7e8cf": {
+        "name": "Kinga Kinga",
+        "email": "kinga@gmail.com",
+        "password": "kalacsboy",
+        "admin": false,
+        "id": "677fc48c7e8cf"
+    },
+    "6782c5f11e57a": {
+        "name": "Dr King Schultz",
+        "email": "dr@dr.com",
+        "password": "dr",
+        "admin": false,
+        "id": "6782c5f11e57a"
+    }
+}
