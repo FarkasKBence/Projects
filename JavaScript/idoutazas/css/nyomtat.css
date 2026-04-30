@@ -1,0 +1,52 @@
+@media print{
+    nav, video, footer, figcaption, .szerkezeti{display: none;}
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+    }
+
+    header, main, footer{
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        padding: 0;
+    }
+
+    p{margin: 3px 0px 0px 0px;}
+    h1, h2, h3{
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        text-transform: none;
+    }
+    h1{text-align: center; font-size: 2em;}
+    h2{border-bottom: 2px black dashed;}
+    h3{border: none; text-align: left;}
+    header h1{font-family: 'Times New Roman', Times, serif; text-shadow: none;}
+    a:after{
+        content: " (" attr(href) ")";
+    }
+    section#velemenyek figure img{width: 60%;}
+    section#rolunk figure img{width: 50%}
+    section#kinalat figure img{width: 38%}
+
+    table{width: 100%; text-align: justify;}
+    section{padding: 0; margin: 0;}
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     }
+    section#velemenyek div{
+        column-count: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-gap: 10px;
+    }
+    
+    textarea, input#nev {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    main a:link, footer a:link{color: #00203f}
+    main a:visited, footer a:visited{color: #00203f}
+}

@@ -1,0 +1,63 @@
+﻿/* nagybetűs stílus */
+
+@import url('alap.css'); 
+@media screen{
+	body {
+		font-size:2em;
+		word-wrap: break-word;
+	}
+	header h1{
+		height: auto;
+	}
+
+    section#velemenyek figure{width: 35%; min-width: 6em}
+    section#rolunk figure{width: 50%; min-width: 10em}
+    section#kinalat figure{width: 45%; min-width: 10em}
+
+	a#nagybetu{display: none;}
+	a#kisbetu{display: block;}
+
+	header nav#menusor ul li{
+		margin: 0px 0px 0px 0px;
+	    display: grid;
+	}
+	header nav#menusor a{
+		margin-left: 0em;
+		margin-right: 0em;
+	}
+
+	header, main, footer{
+		width: 90%;
+		max-width: 1200px;
+	}
+
+	.oszlopos{
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+    }
+    .oszlopos section{height: auto; margin: 20px;}
+
+	section#velemenyek div{
+		column-count: 1;
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+	}
+	section#csomagok div{
+		overflow: scroll;
+		display: block;
+		width: 100%;
+	}
+
+	section#csomagok aside{
+		display: grid;
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 1260px){
+    header nav#betumeret{
+        float: none;
+        width: 100%;
+    }
+}

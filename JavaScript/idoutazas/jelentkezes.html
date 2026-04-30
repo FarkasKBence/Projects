@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <title>Időturizmus - Jelentkezés</title>
+    <link rel="icon" type="image/x-icon" href="kep/logo.ico">
+	  <link rel="stylesheet" type="text/css" href="css/alap.css" title="normal">
+    <link rel="stylesheet" type="text/css" href="css/nyomtat.css" media="print">
+	  <link rel="alternate stylesheet" media="screen" type="text/css" href="css/gyengenlato.css" title="gyengenlato">
+	  <script src="script/styleswitcher.js"></script>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav id="tartalomra">
+      <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+    <header>
+      <h1>IdőTuriszt</h1>
+      <nav id="betumeret">
+        <a id="nagybetu" href="#" onclick="setActiveStyleSheet('gyengenlato'); return false;">Nagybetűs változat</a>
+        <a id="kisbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;">Normál változat</a>
+      </nav>
+        <nav id="menusor">
+            <ul>
+              <li><a href="index.html">Főmenü</a></li>
+              <li><a href="kinalat.html">Kínálatunk</a></li>
+              <li><a href="kapcsolat.html">Kapcsolat</a></li>
+              <li><a class="itt" href="jelentkezes.html"><i>Jelentkezz most!</i></a></li>
+            </ul>
+         </nav>
+    </header>
+    <main id="tartalom">
+      <section id="csomagok">
+        <h2>Ismerje meg gazdaságos csomagjainkat!</h2>
+        <aside id="alapveto">
+          <h3>ALAPVETŐ csomag</h3>
+          <ul>
+            <li>életreszóló élmények</li>
+            <li>felejthetetlen, időtálló kalandok</li>
+            <li>múlt feltárásának lehetősége</li>
+          </ul>
+        </aside>
+
+        <aside id="szuprem">
+          <h3>SZUPRÉM csomag</h3>
+          <ul>
+            <li>életreszóló élmények</li>
+            <li>felejthetetlen, időtálló kalandok</li>
+            <li>múlt feltárásának lehetősége</li>
+            <li>biztonságérzet, korhoz illő öltözet</li>
+            <li>biztosítás balesetek esetén</li>
+          </ul>
+        </aside>
+
+        <div>
+          <table>
+            <caption class="szerkezeti">
+            <strong>Csomagok</strong>
+             <details>
+               <summary>Összefoglaló</summary>
+               <p>A jelenlegi évben elérhető csomagjaink. </p>
+              </details>
+            </caption>
+            <tr>
+              <th>Csomag</th>
+              <th>Alapvető</th>
+              <th>Szuprém</th>
+            </tr>
+            <tr>
+              <th>Utazás bárhova, bármikor a világon</th>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <th>Visszaút biztosítása</th>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <th>Életbiztosítás</th>
+              <td>X</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <th>Jövőbe való utazás</th>
+              <td>X</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <th>Túlélőfelszerés</th>
+              <td>X</td>
+              <td>✓</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section id="kvalifikacio">
+        <h2>Jelentkezz életed nagy kihívására!</h2>
+        <form action="mailto:fakanal450@gmail.com" method="post" enctype="text/plain">
+          <fieldset>
+            <legend>Az adatai:</legend>
+            <label for="nev"><strong>Teljes név:</strong></label><br>
+              <input type="text" name="nev" id="nev" maxlength="110"><br> <!--Picasso neve 103 karakter-->
+            <strong>Utazott már az időben időgép segítségével?</strong> <br>
+              <input type="radio" name="idogepben_utazott" id="igen" value="igen"><label for="igen">Igen.</label><br>
+              <input type="radio" name="idogepben_utazott" id="nem" value="nem"><label for="nem">Nem.</label>
+          </fieldset>
+          <fieldset>
+            <legend>Utazási részletek:</legend>
+            <label for="indoklás"><strong>Utazás részletei:</strong></label><br>
+              <textarea name="indoklás" id="indoklás" rows="8" maxlength="500" placeholder="Pár mondatban írja le, hova szeretne utazni és milyen célból."></textarea><br>
+              <strong>Ezt az utazási csomagot szeretném igényelni:</strong><br>
+                <input type="radio" name="csomag" id="falapveto" value="alapveto"><label for="falapveto">ALAPVETŐ csomag</label><br>
+                <input type="radio" name="csomag" id="fszuprem" value="szuprem"><label for="fszuprem">SZUPRÉM csomag</label><br>
+              <strong>Ezeket a bónuszokat szeretném igényelni csomagom mellé:</strong><br>
+              <input type="checkbox" name="bonus" id="bonus1" value="malaria"><label for="bonus1">Malária elleni védőoltás.</label><br>
+              <input type="checkbox" name="bonus" id="bonus2" value="nyelvlecke"><label for="bonus2">Nyelvleckék az utazási célomhoz illően.</label><br>
+              <input type="checkbox" name="bonus" id="bonus3" value="haziallat"><label for="bonus3">Saját háziállat magammal vitele.</label><br>
+              <input type="checkbox" name="bonus" id="bonus4" value="emlektargy"><label for="bonus4">Egy emléktárgy megtartása az utazás után.</label>
+          </fieldset>
+          <fieldset class="szerkezeti">
+            <legend>Jelentkezés elküldése:</legend>
+            <input type="submit" value="Beküld">
+            <input type="reset" value="Törlés">
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="szerkezeti"><a href="#top">Vissza a tetejére</a></p>
+      <p>© 2027 IdőTuriszt Zrt.</p>
+    </footer>
+  </body>
+</html>

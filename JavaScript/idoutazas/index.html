@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <title>Időturizmus - Főmenü</title>
+    <link rel="icon" type="image/x-icon" href="kep/logo.ico">
+	  <link rel="stylesheet" type="text/css" href="css/alap.css" title="normal">
+    <link rel="stylesheet" type="text/css" href="css/nyomtat.css" media="print">
+	  <link rel="alternate stylesheet" media="screen" type="text/css" href="css/gyengenlato.css" title="gyengenlato">
+	  <script src="script/styleswitcher.js"></script>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <nav id="tartalomra">
+      <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+    <header>
+      <h1>IdőTuriszt</h1>
+      <nav id="betumeret">
+        <a id="nagybetu" href="#" onclick="setActiveStyleSheet('gyengenlato'); return false;">Nagybetűs változat</a>
+        <a id="kisbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;">Normál változat</a>
+      </nav>
+      <nav id="menusor">
+          <ul>
+            <li><a class="itt" href="index.html"><i>Főmenü</i></a></li>
+            <li><a href="kinalat.html">Kínálatunk</a></li>
+            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            <li><a href="jelentkezes.html">Jelentkezz most!</a></li>
+          </ul>
+       </nav>
+    </header>
+    <main id="tartalom">
+      <section id="intro">
+        <h2>Bemutatjuk a világ első időturisztikai cégét</h2>
+        <video controls src="kep/video.mp4" poster="kep/hatter.png"></video>
+        <p class="szerkezeti"><a href="video.html">Szöveges leírás</a></p>
+      </section>
+
+      <section id="velemenyek">
+        <h2>Tapasztalói vélemények</h2>
+        <div>
+          <article>
+            <h3>Heu Réka</h3>
+            <figure>
+              <img src="kep/profil1.jpg" alt="Heu Réka, egyik elégedett kliensünk">
+              <figcaption>Heu Réka, egyik elégedett kliensünk</figcaption>
+            </figure>
+            <p>★★★★★</p>
+            <q>Egész életemben <span lang="en">Beatles</span>-rajongó voltam, de a születési évem miatt soha nem láthattam őket élőben. Az IdőTurisztnak hála valóra vált az álmom!</q>
+            <p>- Réka a 60-as évekbeli vakációja után.</p>
+          </article>
+          <article>
+            <h3>Hilter Rudolf</h3>
+            <figure>
+              <img src="kep/profil2.jpg" alt="Hilter Rudolf, másik elégedett kliensünk">
+              <figcaption>Hilter Rudolf, másik elégedett kliensünk</figcaption>
+            </figure>
+            <p>★★★★★</p>
+            <q>Imádom a történelmet!</q>
+            <p>- Rudolf beszámolója a legutóbbi időutazásáról.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="rolunk">
+        <h2>Rólunk</h2>
+        <p>Azt mondják, <em>kockázat</em> nélkül nincs siker. Amikor elindultunk az időutazás útján, senki nem volt előttünk, aki a kezünket fogja (a jövőbeli énünkön kívül). Professzionális csapatunk két főből áll; Dr. Barna Emett, az évszázad innovátora, és Meklégy Márton, a tesztalany személyében. <em>Célunk</em> az IdőTurisztnál az időutazás technológiának megosztása a mindennapi emberrel.</p>
+        <figure>
+          <img src="kep/csoportfoto.jpg" alt="A cég két alapítója, Meklégy Márton és Dr. Barna Emett">
+          <figcaption>A cég két alapítója, Meklégy Márton és Dr. Barna Emett</figcaption>
+        </figure>
+      </section>
+    </main>
+    <footer>
+      <p class="szerkezeti"><a href="#top">Vissza a tetejére</a></p>
+      <p>© 2027 IdőTuriszt Zrt.</p>
+    </footer>
+  </body>
+</html>

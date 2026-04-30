@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Körvasút</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <h1>Railways!</h1>
+        <div class="center">
+            <input type="text" maxlength="14" placeholder="Add meg a neved!" id="nameInput"><br>
+        </div>
+        <div class="column">
+            <section class="gameinfo">
+                Állítsd be a nehézséget!<br>
+                <button id="smallInput">5x5</button>
+                <button id="largeInput">7x7</button>
+            </section>
+        </div>
+        <div class="column">
+            <button id="toGame" class="disabled">Játék indítása</button> <br>
+            <button id="toDesc">Leírás</button>
+        </div>
+    </div>
+    <div id="game">
+        <h1>Railways!</h1>
+        <div class="center">
+            <button id="toMenu" class="fromGame">Vissza a menübe</button>
+        </div>
+        <div class="column">
+            <section class="gameinfo">
+                Útvonaltervező:
+                <strong id="nameOutput">Hiba!</strong>
+                    Eltelt idő:
+                <strong id="timeOutput">0</strong>
+            </section>
+            <section class="gameinfo" id="leaderboard">
+                Toplista:
+                <ol id="leaderlist"></ol>
+            </section>
+        </div>
+        <div class="column">
+            <table id="gameTable" cellspacing="0" cellpadding="0"></table>
+        </div>
+    </div>
+    <div id="desc">
+        <h1>Railways!</h1>
+        <section class="desc">
+            <h2>Történet</h2>
+            <p>Nekeresdországban Nevenincs király szeretne egy körvasutat építeni, amely bejárja a birodalmának minden szegletét. <br>
+            A feladat megvalósítása Furfangra, az udvari tanácsosra vár, akinek a munkáját nehezíti a királyság változatos tája. <br>
+            Segítsünk Furfangnak megtervezni a királyság vasúthálózatához tartozó térképet!</p>
+        </section>
+        <section class="desc">
+            <h2>Játékelemek</h2>
+            <p>A játék különböző méretű négyzetrácsos hálón játszódhat, ahol a célunk az, hogy egy összefüggő körvasútvonalat alkossunk úgy, hogy minden olyan helyre eljusson a vonat, ahova lehetséges. <br>
+            A térképen több különböző típusú mező található, melyek a játék kezdetén látszódnak a térképen:</p>
+            <p>Üres mező: ebben a cellában a vasútvonal a belépési irányon kívül maradék három irányba tud haladni. <br>
+            Híd mező: ezen a mezőn a vasútvonalat csak a híd által megadott egyenes írányban lehet megépíteni <br>
+            Hegy mező: ezeken a mezőkön a sziklák a cellának két szomszédos kijáratát lezárják, így csak 90°-ban elfordulva lehet továbbhaladni. <br>
+            Oázis mező: erre a cellára nem lehet vasutat építeni.</p>
+            <p>Mivel szeretnénk a vasúthálózat alapanyagán spórolni, így a vasúthálózat sehol nem keresztezheti önmagát, sehol nem ágazhat el, és nem haladhat át többször egy cellán!</p>
+        </section>
+        <div class="center">
+            <button id="toMenu">Vissza a menübe</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="navigation.js"></script>
+    <script src="maps.js"></script>
+</body>
+</html>
