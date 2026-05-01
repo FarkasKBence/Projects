@@ -1,4 +1,4 @@
-# Projektek / Projects
+# Projektek // Projects
 Kisebb projektek és kódfájlok kombinációja. // Collection of smaller projects and codefiles.
 
 ## [C & C++](https://github.com/FarkasKBence/Projects/tree/main/C%26C%2B%2B)
@@ -51,7 +51,7 @@ Kisebb projektek és kódfájlok kombinációja. // Collection of smaller projec
 
 ## [Shell](https://github.com/FarkasKBence/Projects/tree/main/Shell)
 
-* __**belepteto:**__ .dat fájlokat kezelő program. / Program that handles .dat files.
+* __**belepteto:**__ .dat fájlokat kezelő program. // Program that handles .dat files.
 
 ## [SQL](https://github.com/FarkasKBence/Projects/tree/main/SQL)
 
