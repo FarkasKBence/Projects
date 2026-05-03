@@ -27,8 +27,8 @@ Kisebb projektek és kódfájlok kombinációja. // Collection of smaller projec
 
 ## [JavaScript](https://github.com/FarkasKBence/Projects/tree/main/JavaScript)
 
-* [__**Weboldalam / My Web Page:**__](github.com/FarkasKBence/farkaskbence.github.io) saját weboldalam Wordle-megoldóval // personal webpage with Wordle Solver
-* [__**Projekt Együttműködés / Collaborative Project:**__](github.com/MaWa-Project/MaWa-Project.github.io) Jávai-Magyar Wordle szótár // Javanese-Hungarian Wordle Dictionary
+* [__**Weboldalam / My Web Page:**__](https://farkaskbence.github.io/) saját weboldalam Wordle-megoldóval // personal webpage with Wordle Solver
+* [__**Projekt Együttműködés / Collaborative Project:**__](https://mawa-project.github.io/Hungarian-Javanese-Wordle-Dictionary/) Jávai-Magyar Wordle szótár // Javanese-Hungarian Wordle Dictionary
 * __**idoutazas:**__ weboldal egy fiktív turisztikai cégről. // webpage about a fictional travel agency.
 * __**minesweeper:**__ aknakereső játék állítható pályamérettel és aknaszámmal. // Minesweeper game with adjustable settings.
 * __**trackworks:**__ sínlerakó játék toplistával. // railway-laying game with leaderboard.
