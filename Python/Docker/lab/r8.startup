@@ -1,0 +1,5 @@
+ip addr add 95.140.44.1/24 dev eth0
+ip addr add 18.0.0.2/24 dev eth1
+
+sed -i 's/ospfd=no/ospfd=yes/' /etc/frr/daemons
+systemctl start frr

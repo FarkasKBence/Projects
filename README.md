@@ -45,9 +45,15 @@ Kisebb projektek és kódfájlok kombinációja. // Collection of smaller projec
 ## [Python](https://github.com/FarkasKBence/Projects/tree/main/Python)
 
 * __**csv:**__ pandas, numpy és matplotlib segítségével létrejött adatelemző. // data analysis and cleanup with pandas, numpy and matplotlib.
+* __**Docker:**__ Docker-t használó telekom hálózatok. // Telecom system using Docker.
 * __**RestAPI:**__ RestAPI-alapú webbolt JSON-adattárolással. // RestAPI based webshop using JSON data storage.
 * __**TCP:**__ TCP alapú szerver-kliens viszony socket kiegészítővel. // TCP based server-client link using socket extension.
 * __**UDP:**__ TCP és UDP alapú szerver-kliens viszony socket kiegészítővel. // TCP and UDP based server-client link using socket extension.
+
+## [R](https://github.com/FarkasKBence/Projects/tree/main/R)
+
+* __**gyakorlat:**__ egyetemi órák eredményei. // Files programmed in University.
+* __**dobas:**__ 1000 dobás eredményét és átlagát számítja ki. // Calculates averages of 1000 dice throws.
 
 ## [Shell](https://github.com/FarkasKBence/Projects/tree/main/Shell)
 

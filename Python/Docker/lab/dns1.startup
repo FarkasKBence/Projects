@@ -1,0 +1,3 @@
+ip addr add 80.244.99.200/24 dev eth0
+
+ip route add default dev eth0 via 80.244.99.2
