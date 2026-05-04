@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Turistak", "Turistak.csproj", "{B05549E3-AB40-4207-8CFA-D14694805766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuristaTest", "..\TuristaTest\TuristaTest.csproj", "{49768F71-C30E-40F6-A308-1C7859D03814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B05549E3-AB40-4207-8CFA-D14694805766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05549E3-AB40-4207-8CFA-D14694805766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05549E3-AB40-4207-8CFA-D14694805766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05549E3-AB40-4207-8CFA-D14694805766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49768F71-C30E-40F6-A308-1C7859D03814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49768F71-C30E-40F6-A308-1C7859D03814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49768F71-C30E-40F6-A308-1C7859D03814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49768F71-C30E-40F6-A308-1C7859D03814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D44086B9-87C8-4FE2-8CAB-2300978F6819}
+	EndGlobalSection
+EndGlobal
