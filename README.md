@@ -12,6 +12,7 @@ Kisebb projektek és kódfájlok kombinációja. // Collection of smaller projec
 ## [C#](https://github.com/FarkasKBence/Projects/tree/main/C%23)
 
 * __**BIV5IL:**__ "Kis maximumú település" egyszerű input-kezelő program dokumentációval. // Simple input-handling program with documentation.
+* __**TuristaCalc:**__ Egyszerű program, mely a turizmus hatását szimulálja városokra, tesztelővel és UML-lel. // Simple program simulating the effects of tourism on cities, with testing and attached UML.
 
 ## [Haskell](https://github.com/FarkasKBence/Projects/tree/main/Haskell)
 
@@ -23,7 +24,8 @@ Kisebb projektek és kódfájlok kombinációja. // Collection of smaller projec
 * __**AuctionHouse:**__ szálkezelt és szálbiztos aukciósház. // Thread-safe auction house.
 * __**FractalTree:**__ szálkezeléssel rajzolt fraktál-fa. // fractal-tree drawn by multi-threading.
 * __**walking:**__ JUnit-tesztelést bemutató program. // program showcasing JUnit testing.
-* __**TRON:**__ ANT-ben épült versenyzős játék Swift/AWT GUI-val és SQL-adattárolással, dokumentációval. // Racing game built in ANT with SWIFT/GUI and SQL data storage.
+* __**pamoba:**__ "Négy a nyerő" játék ANT-ben, Swing/AWT GUI-val. //ANT-Connect Four game using Swift/AWT, made with ANT.
+* __**TRON:**__ ANT-ben épült versenyzős játék Swing/AWT GUI-val és SQL-adattárolással, dokumentációval. // Racing game built in ANT with Swing/AWT GUI and SQL data storage.
 
 ## [JavaScript](https://github.com/FarkasKBence/Projects/tree/main/JavaScript)
 
@@ -49,6 +51,7 @@ Kisebb projektek és kódfájlok kombinációja. // Collection of smaller projec
 * __**RestAPI:**__ RestAPI-alapú webbolt JSON-adattárolással. // RestAPI based webshop using JSON data storage.
 * __**TCP:**__ TCP alapú szerver-kliens viszony socket kiegészítővel. // TCP based server-client link using socket extension.
 * __**UDP:**__ TCP és UDP alapú szerver-kliens viszony socket kiegészítővel. // TCP and UDP based server-client link using socket extension.
+* __**webscraping:**__ D&D webwiki varázslatok JSON-ba kinyerése Selenium. // Scrapes a D&D website into JSON with Selenium.
 
 ## [R](https://github.com/FarkasKBence/Projects/tree/main/R)
 
